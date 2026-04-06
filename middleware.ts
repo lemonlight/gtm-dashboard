@@ -19,9 +19,7 @@ export function middleware(request: NextRequest) {
   }
 
   const base64Credentials = authHeader.split(" ")[1];
-  const credentials = Buffer.from(base64Credentials, "base64").toString(
-    "ascii"
-  );
+  const credentials = atob(base64Credentials);
   const password = credentials.split(":").slice(1).join(":");
 
   if (password !== process.env.DASHBOARD_PASSWORD) {
