@@ -1,0 +1,32 @@
+{
+  "paying": {
+    "label": "Paying",
+    "orgIds": [],
+    "amplitudeCohortId": "g5xazf5h",
+    "isExclusion": false
+  },
+  "exclusion": {
+    "label": "Exclusion & Testers",
+    "orgIds": [],
+    "amplitudeCohortId": "wrvfij91",
+    "isExclusion": true
+  },
+  "handheld": {
+    "label": "Handheld",
+    "orgIds": [],
+    "amplitudeCohortId": null,
+    "isExclusion": false
+  },
+  "nonHandheld": {
+    "label": "Non-Handheld",
+    "orgIds": [],
+    "amplitudeCohortId": null,
+    "isExclusion": false
+  },
+  "selfStarter": {
+    "label": "Self-Starter",
+    "orgIds": [],
+    "amplitudeCohortId": null,
+    "isExclusion": false
+  }
+}
